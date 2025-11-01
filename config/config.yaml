@@ -1,0 +1,23 @@
+server:
+  host: "0.0.0.0"
+  port: 8080
+  debug: true
+
+smtp:
+  host: "localhost"
+  port: 587
+  user: ""
+  password: ""
+  use_tls: true
+
+mcp:
+  server_name: "sendmail-server"
+  server_version: "1.0.0"
+  max_tool_execution_time: 60
+
+security:
+  enable_auth: false
+
+logging:
+  level: "INFO"
+  file: "./logs/server.log"
